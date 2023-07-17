@@ -1,0 +1,166 @@
+nav {
+    background-color: #fff;
+}
+
+.hero {
+    padding: 80px 10px;
+    margin-top: 80px;
+}
+
+.hero h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+}
+
+.hero p {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+
+}
+
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.container .row {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .row .col {
+    padding: 20px;
+    width: 80%;
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .row .col img {
+    border-radius: 30px;
+}
+
+.container .row .col p {
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.btn {
+    font-family: inherit;
+    display: inline-block;
+    height: 2.6em;
+    line-height: 2.5em;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--blue);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    width: fit-content;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 5px 20px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--blue);
+    height: 400px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    color: #fff;
+}
+
+.btn:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+.btn:hover:before {
+    top: -50px;
+    left: -50px;
+}
+
+.btn:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+}
+
+/* offer */
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer .content {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+    width: 98%;
+    background-color: var(--bg-blue-2);
+    height: 300px;
+}
+
+.offer .content h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.offer .content p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 40px;
+    width: 70%;
+
+}
+
+.offer .content button {
+    padding: 1em 2em;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.offer .content button:hover {
+    background-color: var(--blue);
+    box-shadow: 0px 15px 20px rgba(46, 131, 229, 0.4);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+/* end offer */

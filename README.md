@@ -1,27 +1,20 @@
-<!-- 
-
-to do:
-
-public: 
-- show post (done)
-
-admin:
-- update post
-- acc post (on progress)
-- revisi post
-- edit post
-- manage category
-- create & edit user
-- remove user from post
-
-user:
-- create & update post
-- revisi post
-- see my post
-- see revision post
-
- -->
-
+- [x]  Set up a Laravel project
+- [x]  Design the database schema
+- [x]  Implement the authentication system
+- [x]  Create CRUD operations for posts
+- [x]  Create CRUD operations for categories
+- [x]  Create CRUD operations for users
+- [x]  Implement the publish feature
+- [x]  Implement the manage feature for content, categories, and users
+- [ ]  Show user profile
+- [x]  Delete category
+- [x]  Create new category
+- [ ]  Add page breadcrumb
+- [x]  Set Gates
+- [ ]  Create pagination
+- [ ]  Create list categories page for public
+- [ ]  Test and debug the application
+- [ ]  Deploy the application to a production server
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
